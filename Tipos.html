@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="./Razas.js"></script>
+    <style>
+        #imagenContenedor{
+            width: 220px;
+            height: 220px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+   
+   
+   <h1>Razas de Caballos</h1> <br>
+
+    
+    <div id="imagenContenedor">
+
+    <img  id="imagenCaballo"width="200">
+          
+    </div> <br>
+    
+    <div>
+      
+    <input type="radio" id="arabe" name="caballo" value="arabe" onclick="mostrarImagen(this.value)"/>
+    <label for="arabe">Árabe</label><br>
+    
+    <input type="radio" id="frison" name="caballo" value="frison" onclick="mostrarImagen(this.value)"/>
+    <label for="frison">Frisón</label><br>
+    
+    <input type="radio" id="mustang" name="caballo" value="mustang" onclick="mostrarImagen(this.value)"/>
+    <label for="mustang">Mustang</label><br>
+    
+    <input type="radio" id="shire" name="caballo" value="shire" onclick="mostrarImagen(this.value)"/>
+    <label for="shire">Shire</label><br>
+    
+    <input type="radio" id="cuartodemilla" name="caballo" value="cuartodemilla" onclick="mostrarImagen(this.value)"/>
+    <label for="cuartodemilla">Cuarto de Milla</label><br>
+    
+    <input type="radio" id="criollo" name="caballo" value="criollo" onclick="mostrarImagen(this.value)"/>
+    <label for="criollo">Criollo</label><br>
+    
+    <input type="radio" id="español" name="caballo" value="español" onclick="mostrarImagen(this.value)"/>
+    <label for="español">Español</label><br><br>
+
+</div>
+
+  
+</body>
+</html>
